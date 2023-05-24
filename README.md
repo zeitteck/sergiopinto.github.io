@@ -12,18 +12,15 @@ En mi porfolio, presento una selección de proyectos destacados que he desarroll
 
 ## :computer: Conocimientos
 
-Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.](https://github.com/zeitteck/proyectoEMT)
+Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el [enlace!.](https://github.com/zeitteck/proyectoEMT)
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 
 
-
-Además de los proyectos que se encuentran en este repositorio, también he trabajado en otros proyectos utilizando **Vue.js**, un framework de JavaScript. Si estás interesado en ver cómo he utilizado Vue.js en mis proyectos, te invito a explorar mis otros repositorios en GitHub, donde encontrarás ejemplos emocionantes de aplicaciones web interactivas y dinámicas.
-[Enlace a mi proyecto de Vue de GitHub.](https://github.com/zeitteck/pokedexVue)
+Además de los proyectos que se encuentran en este repositorio, también he trabajado en otros proyectos utilizando **Vue.js**, un framework de JavaScript. Si estás interesado en ver cómo he utilizado Vue.js en mis proyectos, te invito a explorar mis otros [repositorios](https://github.com/zeitteck/pokedexVue) en GitHub, donde encontrarás ejemplos emocionantes de aplicaciones web interactivas y dinámicas.
 
 ---
 
 
-Puedes visitar mi perfil de GitHub y explorar todos mis repositorios en el siguiente enlace: 
-[Enlace a mi perfil de GitHub.](https://github.com/zeitteck)
+Puedes visitar mi perfil de GitHub y explorar todos mis repositorios en el siguiente [enlace.](https://github.com/zeitteck)
 
 ¡Gracias por visitar mi porfolio y por tu interés en mi trabajo, no dudes en explorar mis otros repositorios !
