@@ -9,10 +9,11 @@ En mi porfolio, presento una selección de proyectos destacados que he desarroll
 
 Además, he utilizado Laravel y PHP para implementar la lógica de negocio en mis proyectos. Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 [Enlace a mi proyecto de laravel de GitHub.] https://github.com/zeitteck/proyectoEMT
-[Texto del enlace](https://www.solucionex.com/sites/default/files/posts/imagen/laravel-8-jetstream.png)
+
 
 Además de los proyectos que se encuentran en este repositorio, también he trabajado en otros proyectos utilizando Vue.js, un framework de JavaScript. Si estás interesado en ver cómo he utilizado Vue.js en mis proyectos, te invito a explorar mis otros repositorios en GitHub, donde encontrarás ejemplos emocionantes de aplicaciones web interactivas y dinámicas.
-[Enlace a mi proyecto de laravel de GitHub.] (https://github.com/zeitteck/pokedexVue)
+[Enlace a mi proyecto de Vue de GitHub.] (https://github.com/zeitteck/pokedexVue)
+---
 Puedes visitar mi perfil de GitHub y explorar todos mis repositorios en el siguiente enlace: 
 [Enlace a mi perfil de GitHub.](https://github.com/zeitteck)
 
