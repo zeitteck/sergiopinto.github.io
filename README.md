@@ -7,6 +7,7 @@ https://zeitteck.github.io
 
 En mi porfolio, presento una selección de proyectos destacados que he desarrollado durante mi aprendizaje en desarrollo de aplicaciones web. Utilizo HTML, CSS y JavaScript para crear diseños atractivos y funcionales, incorporando elementos interactivos para mejorar la experiencia del usuario.
 
+---
 
 :computer: Conocimientos
 
