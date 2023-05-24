@@ -1,6 +1,10 @@
 # Sergio Pinto - zeitteck.github.io 📚
 Mi Porfolio Personal 
-¡Hola! Soy un estudiante de desarrollo de aplicaciones web con conocimientos en HTML, CSS, JavaScript, Laravel, PHP, MySql y Bootstrap. Mi repositorio personal en GitHub alberga mi porfolio, donde muestro mis habilidades y proyectos relacionados con el desarrollo web.
+¡Hola! Soy un estudiante de desarrollo de aplicaciones web con conocimientos en HTML, CSS, JavaScript, Laravel, PHP, MySql y Bootstrap.
+JavaScript
+HTML
+CSS
+Mi repositorio personal en GitHub alberga mi porfolio, donde muestro mis habilidades y proyectos relacionados con el desarrollo web.
 
 # 😄 Mi Porfolio Personal 
 https://zeitteck.github.io
