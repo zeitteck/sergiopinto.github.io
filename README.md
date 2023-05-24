@@ -3,8 +3,7 @@ Mi Porfolio Personal
 ¡Hola! Soy un estudiante de desarrollo de aplicaciones web con conocimientos en **HTML, CSS, JavaScript, Laravel, PHP, MySql y Bootstrap.**
 Mi repositorio personal en GitHub alberga mi porfolio, donde muestro mis habilidades y proyectos relacionados con el desarrollo web.
 
-## 😄 Mi Porfolio Personal 
-[Porfolio](https://zeitteck.github.io)
+## 😄 Mi [Porfolio Personal.](https://zeitteck.github.io)
 
 En mi porfolio, presento una selección de proyectos destacados que he desarrollado durante mi aprendizaje en desarrollo de aplicaciones web. Utilizo HTML, CSS y JavaScript para crear diseños atractivos y funcionales, incorporando elementos interactivos para mejorar la experiencia del usuario.
 
