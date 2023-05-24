@@ -12,7 +12,7 @@ En mi porfolio, presento una selección de proyectos destacados que he desarroll
 
 ## :computer: Conocimientos
 
-Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.] https://github.com/zeitteck/proyectoEMT.
+Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.] (https://github.com/zeitteck/proyectoEMT)
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 
 
