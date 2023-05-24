@@ -1,0 +1,18 @@
+  /* Animación de zoom */
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.89);
+    }
+  }
+
+  /* Aplicar animación de zoom a los enlaces */
+  #pie .col-md-3 a.btn-floating {
+    transition: transform 0.3s ease;
+  }
+
+  #pie .col-md-3 a.btn-floating:hover {
+    animation: zoomIn 0.3s forwards;
+  }

@@ -1,0 +1,14 @@
+  /* Animación de zoom prueba */
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.89);
+    }
+  }
+
+  /* Aplicar animación de zoom al logotipo */
+  #logotipo:hover {
+    animation: zoomIn 0.2s forwards;
+  }

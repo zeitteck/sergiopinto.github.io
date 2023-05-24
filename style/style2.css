@@ -1,0 +1,178 @@
+/* montserrat extrabold */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    /* color: rgb(190, 62, 62); */
+}
+
+#body{
+    background: repeating-linear-gradient(135deg, hsl(0 0% 8%) 0 20px,hsl(0 0% 10%) 0 40px);
+    /* background-color: #1D1E22; */
+    
+}
+#linea{
+    color: #ffffff;
+}
+
+#logotipo{
+    width: 30px;
+   height: 30px;
+}
+
+
+#nav{
+
+    /* background: repeating-linear-gradient(135deg, hsl(0 0% 8%) 0 20px,hsl(0 0% 10%) 0 40px); */
+    background-color: #19191D;
+}
+
+#colapso{
+    background-color: #19191D;
+}
+
+#mano{
+    width: 20px;
+    height: 20px;
+}
+#saludoInicio{
+    color: white;
+}
+
+#sobreMiInicio{
+font-size: 40px;
+color: #F7C363;
+}
+
+#cinta
+{
+    border-top: 80px;
+    border-bottom: 40px;
+}
+
+
+#fotoEscritorio {
+    width:470px;
+     height: 300px;
+}
+#sobreMiTexto{
+    color: #ffffff;
+}
+
+#sobreMi1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+#eclipse{
+    width: 10px;
+}
+
+#iconos{
+    height: 0.5cm;
+    width: 0.5cm;
+}
+
+#habilidadesFondos{
+    background-color: #19191D; 
+}
+.carousel-inner{
+    border-radius: 35px;
+}
+
+#divisionesNegras{
+    background-color: #19191D;
+}
+
+#cartas{
+    height:200px ;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+
+#imagenPor{
+    /* height: 10cm; */
+    width: 10.7cm;
+
+}
+
+#carta1,
+#carta2,
+#carta3,
+#carta4{
+    border-radius: 20px;
+}
+
+.modal-body {
+    background: repeating-linear-gradient(135deg, hsl(0 0% 8%) 0 20px,hsl(0 0% 10%) 0 40px);
+}
+
+.modal-content .btn {
+    color: #ffffff; /* Cambia #ff0000 por el color deseado */
+  }
+
+
+.class-body{
+    border-radius: 0.5cm;
+}
+
+#iconoPie{
+    background-color: #F7C363 ;
+    border-radius: 3cm;
+    border-color: #F7C363;
+}
+
+#montserratTexto{
+    color: white;
+}
+
+#roboto {
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* BOTÓN DE CONTACTO */
+#prueba {
+    text-decoration-color: none;
+    color: #19191D;
+    background-color: #F7C363;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 140px;
+    height: 41px;
+}
+
+
+#forma {
+    width: 10px;
+}
+
+
+
+#robotoBold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#roboto500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#amarillo {
+    color: #F7C363;
+
+}
+
+
+#robotoBarra {
+    text-decoration-color: none;
+    font-family: 'Roboto', sans-serif;
+    color: #19191D;
+}

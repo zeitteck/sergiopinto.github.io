@@ -1,0 +1,98 @@
+#videoContainer {
+    position: relative;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(216, 144, 10, 0.863); /* Luz tenue amarilla */
+    animation: flicker 4s infinite;
+    transition: box-shadow 0.5s ease-in-out; /* Transición suave del box-shadow */
+}
+
+@keyframes flicker {
+    30%, 100% {
+        box-shadow: 0 0 10px 5px rgba(216, 144, 10, 0.863); /* Luz tenue amarilla */
+    }
+    50% {
+        box-shadow: none; /* Sin sombra */
+    }
+}
+
+button.primeraInteraccion {
+    position: absolute;
+    background: #FFFFFF; 
+    color: #000000;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#opcion1 {
+    left: 70px;
+    bottom: 70px;
+    width: 100px;
+    height: 45px;
+    opacity: 40%;
+    border-radius: 17px;
+}
+
+#opcion2 {
+    right: 70px;
+    bottom: 70px;
+    width: 110px;
+    height: 45px;
+    opacity: 40%;
+    border-radius: 17px;
+}
+
+#opciones-indice {
+    position: absolute;
+    top: 20px; /* Cambiado de bottom a top */
+    left: 10px;
+    display: none;
+    height: 240px; /* Ajustado el tamaño del contenedor de opciones */
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#indice1 {
+    left: 10px;
+    top: 10px; /* Añadido para posicionar la opción 1 más arriba */
+    height: 40px;
+    width: 150px;
+    opacity: 60%;
+    border-radius: 17px;
+    margin-bottom: 10px; /* Agregado margen inferior para separar las opciones */
+}
+
+#indice2 {
+    left: 10px;
+    top: 70px; /* Añadido para posicionar la opción 2 debajo de la opción 1 */
+    height: 40px;
+    width: 150px; 
+    opacity: 60%;
+    border-radius: 17px;
+    margin-bottom: 10px; /* Agregado margen inferior para separar las opciones */
+    
+}
+
+#indice3 {
+    left: 10px;
+    top: 130px; /* Añadido para posicionar la opción 3 debajo de la opción 2 */
+    height: 40px;
+    width: 150px;
+    opacity: 60%;
+    border-radius: 17px;
+    margin-bottom: 10px; /* Agregado margen inferior para separar las opciones */
+}
+
+#indice4 {
+    left: 10px;
+    top: 190px; /* Añadido para posicionar la opción 4 debajo de la opción 3 */
+    height: 40px;
+    width: 150px;
+    opacity: 60%;
+    border-radius: 17px;
+}

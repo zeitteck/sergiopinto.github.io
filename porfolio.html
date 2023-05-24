@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./terceros/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+
+    <!-- montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- efectos personalizados css -->
+    <link rel="stylesheet" href="./style/logoEfecto.css">
+    <link rel="stylesheet" href="./style/efectosNav.css">
+    <link rel="stylesheet" href="./style/style2.css">
+    <link rel="stylesheet" href="./style/transicion.css">
+    <link rel="stylesheet" href="./style/bannerBlanco.css">
+    <link rel="stylesheet" href="./style/FormacionExp.css">
+    <link rel="stylesheet" href="./style/efectosNav.css">
+    <link rel="stylesheet" href="./style/degradado.css">
+    <link rel="stylesheet" href="./style/efectosCartas.css">
+    <link rel="stylesheet" href="./style/botonesPie.css">
+    <link rel="stylesheet" href="./style/degradadosCartas.css">
+    <link rel="stylesheet" href="./style/videoCss.css">
+
+    <!-- js efectos -->
+
+    <script src="./terceros/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="./img/LogoAmarillo.svg" type="image/x-icon">
+    <title>Sergio Pinto</title>
+</head>
+
+<body id="body">
+    <!-- DIV DE INICIO -->
+    <div id="navInicio fixed-top">
+        <!-- NAVBAR -->
+        <nav class="navbar  fixed-top  navbar-expand-lg p-3 " id="nav">
+            <div class="container">
+                <!-- imagen logotipo -->
+                <a class="navbar-brand" href="#inicio">
+                    <img src="./img/LogoAmarillo.svg" id="logotipo" class="d-block w-100" alt="letra S como logitpo">
+                </a>
+
+                <!-- boton de colapso -->
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <!-- SECCIONES DE PORFOLIO -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0" id="opcionesNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobreMi">SOBRE MÍ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#habilidades">CONOCIMIENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trabajos">TRABAJOS</a>
+                        </li>
+                    </ul>
+                    <!-- ICONOS NAV -->
+                    <ul class="navbar-nav flex-row flex-wrap ms-md-auto" id="enlacesNav">
+                        <li class="nav-item col-8 col-lg-auto">
+                            <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/zeitteck/zeitteck.github.io/"
+                                target="_blank">
+                                <i class=" bi bi-github" id="enlacesNav"></i>
+                            </a>
+                        </li>
+                        <li class="d-flex nav-item col-8 col-lg-auto">
+                            <a class="nav-link py-2 px-0 px-lg-2" href="https://instagram.com/visualarrt/"
+                                target="_blank">
+                                <i class="bi bi-instagram" id="enlacesNav"></i>
+                            </a>
+                        </li>
+                        <li class="d-flex nav-item col-6 col-lg-auto">
+                            <a class="nav-link py-2 px-0 px-lg-2"
+                                href="https://www.linkedin.com/in/sergio-pinto-4a20b0277/" target="_blank">
+                                <i class="bi bi-linkedin" id="enlacesNav"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="p-4"></div>
+
+        <!-- PRESENTACION DE INICIO-->
+        <section id="inicio">
+            <div class="container">
+                <div class="position-relative overflow-hidden p-5 p-md-2 m-md-3 ">
+                    <div class="col-md-5 p-lg-5 mx-auto my-5 float-start">
+                        <div id="saludoInicio">
+                            <h6 id="roboto"><img src="./img/manoSaludando.gif" id="mano"> mi nombre es</h6>
+                            <h1 id="roboto500" class="display-4 fw-normal">Sergio</h1>
+
+                            <p id="sobreMiInicio" class="lead fw-normal">
+                                Programador junior enfocado en
+                                front-end.</p>
+                            <h6 id="roboto500">
+                                CREANDO WEBS ATRACTIVAS Y FUNCIONALES.</h6><br>
+                        </div>
+                    </div>
+                    <div class="col-md-5 p-lg-5 mx-auto my-1 float-end">
+                        <img src="./img/sergio.png" class="rounded float-end"
+                            alt="fotografía de la persona del porfolio">
+                    </div>
+                </div>
+            </div>
+            <!-- BANNER BLANCO ID(CINTA)-->
+            <div class="col-12 " id="cinta">
+                <div class=" p-2 border bg-light">
+                    <div class="row text-center" id="robotoBarra">
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/Html.svg" alt="imagen del logotipo de html">
+                                        HTML
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/css.svg" alt="imagen del logotipo de css">
+                                        CSS
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/javascript.svg"
+                                            alt="imagen del logotipo de JavaScript"> JAVASCRIPT
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/figma.svg"
+                                            alt="imagen del logotipo de Figma"> FIGMA
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/laravel-2.svg"
+                                            alt="imagen del logotipo de laravel"> LARAVEL
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5 col-md-2 mb-1 p-2 ">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 ">
+                                    <a id="robotoBarra" class="nav-link p-0 text-muted">
+                                        <img id="iconos" src="./img/iconos/bootstrap-4.svg"
+                                            alt="imagen del logotipo de Bootstrap"> BOOTSTRAP
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Sobre mi -->
+    <section id="sobreMi">
+        <div class="container">
+            <div class="position-relative overflow-hidden p-1 p-md-1 m-md-3 bg-dar">
+                <div class="col-md-5 p-lg-5 mx-auto my-2 float-start  ">
+                    <div id="sobreMiTexto">
+                        <div>
+                            <h2 id="amarillo"> SOBRE MÍ</h2>
+                            <br>
+                        </div>
+                        <h6 id="sobreMi1">
+                            <br>
+                            Mi nombre es <strong>Sergio Pinto</strong>, tengo 28 años y actualmente estoy finalizando un
+                            <strong> Grado Superior en
+                                Desarrollo de Aplicaciones Web.</strong><br><br>
+                            Decidí entrar en el mundo de la programación tras la pandemia, pues vi una
+                            <strong>opotunidad de cambio</strong>
+                            para poder empezar algo nuevo, ademas de esto, la <strong> programacion</strong> es un mundo
+                            que siempre me llamó la atención
+                            y pensé en combinarlo con los conocimientos que poseo de <strong>marketing y
+                                audiovisuales.</strong>
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-6 p-lg-5 mx-auto my-5 float-end">
+                    <img src="./img/Escritorio.png" id="fotoEscritorio" class="rounded float-end"
+                        alt="fotografía de un escritorio con un ordenador y luces tenues">
+                </div>
+                <div class="product-device shadow-sm d-none d-md-block"></div>
+                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+            </div>
+        </div>
+
+        <!--Estudios y experiencia de trabajo -->
+        <div class="container text-center">
+            <div class="row g-2">
+                <!-- TITULOS DE BLOQUE -->
+                <div class="col-6">
+                    <div>
+                        <div class="p-3">
+                            <h4 id="montserratTexto" class="tituloFormacion">FORMACIÓN📚</h4><br>
+                            <h5 id="robotoBold">Centre d'Estudis Politècnics</h5>
+                            <h6 id="roboto">T. Sup. En Desarrollo de Aplicaciones Web</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <div class="p-3">
+                            <h4 id="montserratTexto" class="tituloExperiencia">EXPERIENCIA LABORAL 💼</h4><br>
+                            <h5 id="robotoBold">Hennes & Mauritz</h5>
+                            <h6 id="roboto">Sales Assistant </h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LINEA DE DIVISION -->
+                <hr class="w-100 clearfix d-md" id="linea" />
+
+                <!--  ESTUDIOS -->
+                <div class="col-6">
+                    <div>
+                        <div class="p-3 ">
+                            <h5 id="robotoBold">INS Mare de Déu de la Mercè</h5>
+                            <h6 id="roboto">T.Sup. Iluminación, captación y tratamiento de Imagen</h6>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EXPERIENCIA -->
+                <div class="col-6">
+                    <div>
+
+                        <div class="p-3">
+                            <h5 id="robotoBold">Espai Jove Garcilaso, Dep. d'educació e independiente.</h5>
+                            <h6 id="roboto">
+                                Cámara-Fotógrafo
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- LINEA DE DIVISION -->
+                <hr class="w-100 clearfix d-md" id="linea" />
+
+                <!-- ESTUDIOS  -->
+                <div class="col-6">
+                    <div>
+                        <div class="p-3 ">
+                            <h5 id="robotoBold">INS Provençana</h5>
+                            <h6 id="roboto">T.Sup en Comercio y Marketing </h6>
+                            <!-- <h6 id="roboto">T.Sup en Comercio y Marketing (2013-2015)</h6> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- EXPERIENCIA -->
+                <div class="col-6">
+                    <div>
+                        <div class="p-3">
+                            <h5 id="robotoBold">IOK Cooperativa d'arquitectura sensata i tecnologia BIM</h5>
+                            <h6 id="roboto">
+                                Community Manager
+                                <!-- Community Manager (2017-Actualidad) -->
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <div id="divisionesNegras">
+            <div class="p-3"></div>
+            <div class="container">
+                <div class="col-12">
+                    <div class="p-3">
+                        <div class="text-center">
+                            <h2 id="amarillo"> CONOCIMIENTOS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 ">
+                    <div class="row ">
+                        <div class="col-sm-4 ">
+                            <div class="card bg-dark">
+                                <div class="card-body " id="habilidadesFondos">
+
+                                    <h5 class="card-title" id="amarillo">En programación:</h5>
+                                    <br>
+                                    <p class="card-text" id="roboto">
+                                        En estos dos ultimos años he podido aprender los siguientes lenguajes de
+                                        programacion,
+                                        de marcas, frameworks y sistemas de gestion de base de datos.
+                                        <br><br>Aquí te dejo un pequeño listado de estos:
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-6 col-md-4 mb-2">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"> <a id="roboto">
+                                                        JavaScript</a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto"> Php</a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto"> Java</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-md-4 mb-3">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto"> Html</a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto"> Css </a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto">
+                                                        Bootstrap</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-md-4 mb-3">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"> <a id="roboto">Vue</a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto">Laravel</a>
+                                                </li>
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"><a id="roboto">MySql</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card bg-dark">
+                                <div class="card-body " id="habilidadesFondos">
+                                    <h5 class="card-title" id="amarillo">En audiovisuales y marketing:
+                                    </h5>
+                                    <br>
+                                    <p class="card-text" id="roboto">
+                                        Tengo conocimientos en estudio de mercado,
+                                        analisis de cliente y sobretodo una vasta experiencia de cara al publico.
+                                        <br><br>En el apartado audiovisual, sigo trabajando como fotógrafo y operador de
+                                        cámara.
+                                        <br><br> Aquí te dejo algunos de los programas con los que trabajo:
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-6 col-md-4 mb-3">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"> <a id="roboto">Adobe
+                                                        Lightroom</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-md-4 mb-3">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"> <a id="roboto">Adobe
+                                                        Premiere Pro</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-md-4 mb-3">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item mb-2">
+                                                    <img id="eclipse" src="./img/Ellipse.svg"> <a id="roboto">Adobe
+                                                        Photoshop</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card bg-dark">
+                                <div class="card-body " id="habilidadesFondos">
+                                    <h5 class="card-title" id="amarillo">A nivel personal:</h5>
+                                    <br>
+                                    <p class="card-text" id="roboto">
+                                        Soy una persona resolutiva, que siempre está predispuesta aprender, con una
+                                        buena capacidad adaptativa y una visión
+                                        creativa
+                                        <br><br>
+                                        Siempre busco el mejor resultado, cuidando cada uno de los detalles del proyecto
+                                        que realizo.
+                                        <!-- <br><br>
+                                        <em>"Pequeño detalles hacen grandes diferencias". </em> - ¿Tú que piensas?. -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3"></div>
+        </div>
+    </section>
+
+
+    <div class="p-4"></div>
+    <!-- cartas de proyectos -->
+    <section id="trabajos">
+        <div class="col-12">
+            <div class="p-3">
+                <div class="text-center">
+                    <h2 id="montserratTexto">CREACIÓN DE TRABAJOS</h2>
+                    <h2 id="amarillo">EN EQUIPO E INDIVIDUAL</h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--Proyectos de programacion -->
+        <div class="container">
+            <div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 ">
+                <div class="row ">
+                    <!-- Carta 1 -->
+                    <div class="col-sm-4 ">
+                        <div class="cardVideo card bg-dark align-items-center" data-bs-toggle="modal" data-descripcion=" Juego realizado con JavaScript,
+                        combina la emoción de atrapar objetos en caída con una lección en sostenibilidad."
+                            data-enlace="https://github.com/zeitteck/JuegoJS" data-bs-target="#exampleModal"
+                            data-bs-url="./videos/caidaFinalYou.mp4" id="carta1">
+                            <img src="./img/iconos/javascript.svg" class="card-img-top " id="cartas"
+                                alt="imagen del logotipo de JavaScript">
+                            <div class="card-body ">
+                                <h5 class="card-title text-center" id="montserratTexto">Recoger Objetos</h5>
+                                <p class="card-text  " id="robotoCartas">
+                                    <br>
+                                    ¡Has clic para darle un vistazo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 2 -->
+                    <!-- <div class="col-sm-3 ">
+                        <div class="cardVideo card bg-dark align-items-center" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-url="./video/prueba2.mp4" id="carta2">
+                            <img src="./img/iconos/php.svg" class="card-img-top " id="cartas" alt="...">
+                            <div class="card-body ">
+                                <h5 class="card-title text-center" id="montserratTexto">EcoHotel</h5>
+                                <p class="card-text" id="roboto">
+                                    <br>
+                                    Creación
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Carta 3 -->
+                    <div class="col-sm-4 ">
+                        <div class="cardVideo card bg-dark align-items-center" data-bs-toggle="modal" data-descripcion="Proyecto creado  en equipo con el framework Laravel de php para responder a situaciones de
+                        emergencias. Esta aplicación proporcionar una asistencia rápida y precisa."
+                            data-enlace="https://github.com/ferettoo/EMT" data-bs-target="#exampleModal"
+                            data-bs-url="./videos/EmergenciasFinal.mp4" id="carta3">
+                            <img src="./img/iconos/laravel-2.svg" class="card-img-top " id="cartas"
+                                alt="imagen del logotipo de Laravel">
+                            <div class="card-body ">
+                                <h5 class="card-title text-center" id="montserratTexto">Emergencias sanitarias</h5>
+                                <br>
+                                <p class="card-text  " id="robotoCartas">
+                                    ¡Has clic para darle un vistazo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 4 -->
+                    <div class="col-sm-4 ">
+                        <div class="cardVideo card bg-dark align-items-center" data-bs-toggle="modal" data-descripcion="  Esta compacta aplicación, construida con el framework Vue de JavaScript, presenta
+                        una Pokedex interactiva centrada en Pokemon."
+                            data-enlace="https://github.com/zeitteck/pokedexVue/" data-bs-target="#exampleModal"
+                            data-bs-url="./videos/pokemonVueFinal.mp4" id="carta4">
+                            <img src="./img/iconos/vue.svg" class="card-img-top " id="cartas"
+                                alt="imagen del logotipo de Vue">
+                            <div class="card-body ">
+                                <h5 class="card-title text-center" id="montserratTexto">Pokédex</h5>
+                                <br>
+                                <p class="card-text" id="robotoCartas">
+                                    ¡Has clic para darle un vistazo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- APARTADO FOTOGRAFICO -->
+        <div class="p-4"></div>
+        <section id="sobreMi">
+            <div class="container">
+                <div class="position-relative overflow-hidden p-2 p-md-1 m-md-3 bg-dar">
+                    <div class="col-md-6 p-lg-5 mx-auto my-2 float-start  ">
+                        <div id="sobreMiTexto">
+                            <div>
+                                <h2 id="amarillo">PROYECTOS FOTOGRÁFICOS</h2>
+                                <br>
+                            </div>
+                            <h6 id="roboto" class="col-md-11">
+                                Como podrás observar, no solo me dedico a la
+                                programación web, también poseo conocimientos
+                                y experiencia en el mundo audiovisual y comercial.
+                                <br><br>
+                                Como <em id="roboto">"Una imagen vale más que mil palabras"</em>,
+                                aquí te dejaré algunos proyectos para que les eches un vistazo:
+                            </h6> <br>
+                            <p id="robotoBold">
+                            </p> <br>
+                        </div>
+                        <br>
+                        <div class="container">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/porfolio/paisaje1.jpg" class="d-block w-100"
+                                            alt="fotografía de un paisaje 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/porfolio/paisaje2.jpg" class="d-block w-100"
+                                            alt="fotografía de un paisaje 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/porfolio/paisaje3.jpg" class="d-block w-100"
+                                            alt="fotografía de un paisaje 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <!-- ESPACIO -->
+                    <div class="col-md-1 p-lg-5 mx-auto my-2 float-start">
+                    </div>
+                    <!-- CARRUSEL LATERAL -->
+                    <div class="col-md-4 p-lg-0 mx-auto my-5 float-start" id="imagenPor">
+                        <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./img/porfolio/porfolioFinal1.jpg" class="d-block w-100"
+                                        alt="fotografía de un chico posando">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/porfolio/porfolioFinal2.jpg" class="d-block w-100"
+                                        alt="fotografía de chica 2  posando">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/porfolio/porfolioFinal4.jpg" class="d-block w-100"
+                                        alt="fotografía de chica 3 posando">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/porfolio/porfolioFinal3.jpg" class="d-block w-100"
+                                        alt="fotografía de chico 4 posando">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    </section>
+
+    <!-- pie de pagina -->
+    <section id="pie">
+        <!-- revisar el enlace, no funciona del todo bien -->
+        <div class="my-1">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white p-4 " id="divisionesNegras">
+                <!-- Grid container -->
+                <div class="container p-3 pb-0">
+                    <!-- Section: Links -->
+                    <section class="">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-43font-weight-bold" id="amarillo">
+                                    Sobre mi:
+                                </h6>
+                                <p id="roboto"> <br>
+                                    Soy un profesional creativo, que no solo tiene conocimientos en el mundo de la
+                                    programación web, también poseo conocimientos y experiencia en el mundo audiovisual
+                                    y
+                                    comercial.
+                                </p>
+                            </div>
+                            <!-- Linea -->
+                            <!-- <hr class="w-100 clearfix d-md-none" /> -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold" id="amarillo">Contacto:</h6>
+                                <p id="roboto"><i class="fas fa-home mr-3"></i>Barcelona, Hospitalet de llobregat.</p>
+                                <p id="roboto"><i class="fas fa-envelope mr-3"></i> sehepica@gmail.com</p>
+                            </div>
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold" id="amarillo">Sigueme en:</h6>
+
+                                <!-- Facebook  color #F7C363-->
+                                <a class="btn btn-primary btn-floating m-1" id="iconoPie"
+                                    href="https://github.com/zeitteck/zeitteck.github.io" role="button" target="_blank">
+                                    <i class=" bi bi-github"></i></a>
+
+                                <!-- instagram -->
+                                <a class="btn btn-primary btn-floating m-1" id="iconoPie"
+                                    href="https://www.instagram.com/visualarrt/" role="button" target="_blank"><i
+                                        class="bi bi-instagram ">
+                                    </i>
+                                </a>
+
+                                <!-- linkeding -->
+                                <a class="btn btn-primary btn-floating m-1" id="iconoPie"
+                                    href="https://www.linkedin.com/in/sergio-pinto-4a20b0277/" role="button"
+                                    target="_blank"> <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/videoInteractivo.js"></script>
+
+    <!-- modal para cada carta -->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="315" src="" autoplay controls></video>
+                    <p id="roboto"></p>
+                    <a href="" target="_blank">Miralo en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

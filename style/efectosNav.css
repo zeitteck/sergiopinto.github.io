@@ -1,0 +1,31 @@
+
+/* Animación de zoom */
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.89);
+  }
+}
+/* Estilo inicial de las opciones de la lista */
+#opcionesNav .nav-link,
+#enlacesNav .nav-link {
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: rgb(255, 255, 255); /* Color inicial */
+}
+
+/* Aplicar animación y cambio de color a las opciones de la lista */
+#opcionesNav .nav-link:hover,
+#enlacesNav .nav-link:hover {
+  animation: zoomIn 0.3s forwards;
+  color: #F7C363; /* Color al colocar el cursor encima */
+}
+
+/* Aplicar animación y cambio de color a los enlaces de enlacesNav */
+#enlacesNav .nav-link:hover {
+  animation: zoomIn 0.3s forwards;
+  color: #F7C363; /* Color al colocar el cursor encima */
+}
+
+

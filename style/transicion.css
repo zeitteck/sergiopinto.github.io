@@ -1,0 +1,50 @@
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+/* NAVBAR, DIV-inicio, SECTION-sobreMi */
+
+/* Estilo inicial */
+#navInicio,
+#inicio,
+#sobreMi,
+#habilidades,
+#trabajos,
+#pie {
+  opacity: 0;
+}
+
+/* Aplicar animación a los elementos */
+#navInicio {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}
+
+#inicio {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}
+
+#sobreMi {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}
+
+#habilidades {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}
+
+
+#trabajos {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}
+
+
+#pie {
+  animation: fadeIn 1s 0.5s ease-out forwards;
+}

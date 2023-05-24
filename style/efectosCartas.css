@@ -1,0 +1,11 @@
+/* Estilo inicial de las cartas del portafolio */
+.cardVideo {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+/* Aplicar transformación y opacidad a las cartas del portafolio al pasar el mouse */
+.cardVideo:hover {
+  transform: scale(0.89);
+  opacity: 0.5;
+}
