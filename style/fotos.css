@@ -1,0 +1,32 @@
+/* Estilo inicial de las cartas del portafolio */
+#imagenPersonal
+ {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+  }
+  
+  /* Aplicar transformación y opacidad a las cartas del portafolio al pasar el mouse */
+#imagenPersonal:hover {
+    transform: scale(0.98);
+
+  }
+  
+
+
+  
+
+  /* Estilo inicial de las cartas del portafolio */
+#fotoEscritorio {
+   
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+  }
+  
+  /* Aplicar transformación y opacidad a las cartas del portafolio al pasar el mouse */
+#fotoEscritorio:hover {
+    transform: scale(0.98);
+
+  }
+
+
+
