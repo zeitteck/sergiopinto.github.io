@@ -6,14 +6,14 @@ HTML
 CSS
 Mi repositorio personal en GitHub alberga mi porfolio, donde muestro mis habilidades y proyectos relacionados con el desarrollo web.
 
-# 😄 Mi Porfolio Personal 
+## 😄 Mi Porfolio Personal 
 https://zeitteck.github.io
 
 En mi porfolio, presento una selección de proyectos destacados que he desarrollado durante mi aprendizaje en desarrollo de aplicaciones web. Utilizo HTML, CSS y JavaScript para crear diseños atractivos y funcionales, incorporando elementos interactivos para mejorar la experiencia del usuario.
 
 ---
 
-# :computer: Conocimientos
+## :computer: Conocimientos
 
 Además tengo proyectos donde he utilizado Laravel y PHP, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.] https://github.com/zeitteck/proyectoEMT.
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
