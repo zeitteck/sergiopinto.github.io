@@ -1,9 +1,6 @@
 # Sergio Pinto - zeitteck.github.io 📚
 Mi Porfolio Personal 
-¡Hola! Soy un estudiante de desarrollo de aplicaciones web con conocimientos en HTML, CSS, JavaScript, Laravel, PHP, MySql y Bootstrap.
-JavaScript
-HTML
-CSS
+¡Hola! Soy un estudiante de desarrollo de aplicaciones web con conocimientos en **HTML, CSS, JavaScript, Laravel, PHP, MySql y Bootstrap.**
 Mi repositorio personal en GitHub alberga mi porfolio, donde muestro mis habilidades y proyectos relacionados con el desarrollo web.
 
 ## 😄 Mi Porfolio Personal 
@@ -15,12 +12,12 @@ En mi porfolio, presento una selección de proyectos destacados que he desarroll
 
 ## :computer: Conocimientos
 
-Además tengo proyectos donde he utilizado Laravel y PHP, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.] https://github.com/zeitteck/proyectoEMT.
+Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el enlace!. [Enlace a mi proyecto de laravel de GitHub.] https://github.com/zeitteck/proyectoEMT.
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 
 
 
-Además de los proyectos que se encuentran en este repositorio, también he trabajado en otros proyectos utilizando Vue.js, un framework de JavaScript. Si estás interesado en ver cómo he utilizado Vue.js en mis proyectos, te invito a explorar mis otros repositorios en GitHub, donde encontrarás ejemplos emocionantes de aplicaciones web interactivas y dinámicas.
+Además de los proyectos que se encuentran en este repositorio, también he trabajado en otros proyectos utilizando **Vue.js**, un framework de JavaScript. Si estás interesado en ver cómo he utilizado Vue.js en mis proyectos, te invito a explorar mis otros repositorios en GitHub, donde encontrarás ejemplos emocionantes de aplicaciones web interactivas y dinámicas.
 [Enlace a mi proyecto de Vue de GitHub.] (https://github.com/zeitteck/pokedexVue)
 
 ---
