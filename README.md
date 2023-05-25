@@ -10,7 +10,7 @@ En mi [porfolio](https://zeitteck.github.io), presento una selección de proyect
 
 ## :computer: Conocimientos
 
-Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el [enlace!.](https://github.com/zeitteck/proyectoEMT)
+Además tengo proyectos donde he utilizado **Laravel y PHP** trabajando en equipo, podrás verlos haciendo clic en el [enlace!.](https://github.com/ferettoo/EMT)
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 
 
@@ -19,6 +19,6 @@ Además de los proyectos que se encuentran en este repositorio, también he trab
 ---
 
 
-Puedes visitar mi perfil de GitHub y explorar todos mis repositorios en el siguiente [enlace.](https://github.com/zeitteck)
+Puedes visitar mi perfil de [GitHub](https://github.com/zeitteck) y explorar todos mis repositorios.
 
-¡Gracias por visitar mi porfolio y por tu interés en mi trabajo, no dudes en explorar mis otros repositorios!
+¡Gracias por visitar mi porfolio y por tu interés en mi trabajo!.
