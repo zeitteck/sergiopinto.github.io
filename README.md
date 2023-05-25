@@ -10,7 +10,7 @@ En mi [porfolio](https://zeitteck.github.io), presento una selección de proyect
 
 ## :computer: Conocimientos
 
-Además tengo proyectos donde he utilizado **Laravel y PHP**, podrás verlos haciendo clic en el [enlace!.](https://github.com/zeitteck/proyectoEMT)
+Además tengo proyectos donde he utilizado **Laravel y PHP** trabajando en equipo, podrás verlos haciendo clic en el [enlace!.]([https://github.com/zeitteck/proyectoEMT](https://github.com/ferettoo/EMT))
 Bootstrap es otra herramienta que utilizo para crear diseños responsivos y adaptados a diferentes dispositivos.
 
 
