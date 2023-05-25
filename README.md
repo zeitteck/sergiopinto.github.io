@@ -21,4 +21,4 @@ Además de los proyectos que se encuentran en este repositorio, también he trab
 
 Puedes visitar mi perfil de [GitHub](https://github.com/zeitteck) y explorar todos mis repositorios.
 
-¡Gracias por visitar mi porfolio y por tu interés en mi trabajo, no dudes en explorar mis otros repositorios!
+¡Gracias por visitar mi porfolio y por tu interés en mi trabajo!.
