@@ -2,6 +2,6 @@
 window.addEventListener('load', () => {
     setTimeout(() => {
       window.location.href = 'porfolio.html';
-    }, 4000);
+    }, 2000);
   });
   
