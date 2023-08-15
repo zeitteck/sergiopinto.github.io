@@ -35,6 +35,7 @@
     width: 20px;
     height: 20px;
 }
+
 #saludoInicio{
     color: white;
 }
@@ -98,14 +99,14 @@ color: #F7C363;
 #imagenPor{
     /* height: 10cm; */
     width: 10.7cm;
-
 }
+
 
 #carta1,
 #carta2,
 #carta3,
 #carta4{
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .modal-body {
@@ -132,7 +133,6 @@ color: #F7C363;
 }
 
 #roboto {
-
     font-family: 'Roboto', sans-serif;
     color: white;
 }
