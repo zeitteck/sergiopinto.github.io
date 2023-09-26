@@ -7,8 +7,12 @@
 }
 
 #body{
-    background: repeating-linear-gradient(135deg, hsl(0 0% 8%) 0 20px,hsl(0 0% 10%) 0 40px);
-    /* background-color: #1D1E22; */
+
+    /* color fondo con rayas */
+     background: repeating-linear-gradient(135deg, hsl(0 0% 8%) 0 20px,hsl(0 0% 10%) 0 40px); 
+
+    /*  color solido sin rayas */
+    /* background-color: #1D1E22;  */
     
 }
 #linea{
